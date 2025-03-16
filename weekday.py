@@ -8,7 +8,7 @@ import datetime
 week_days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
 now = datetime.datetime.now()
 day = week_days[now.weekday()]
-if day == week_days[5 : 6] :
+if day in ("Saturday", "Sunday"):
     print("Yay, it is the weekend!")
 else :
     print("Unfortunately, it is a weekday.")
