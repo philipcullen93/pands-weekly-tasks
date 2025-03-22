@@ -6,6 +6,7 @@ code: weekly task programs
 
 ## Week 2: Statements
 Task: Write a program call bank.py
+
 Requirements: This program should:
 - Prompt the user and read in two money amounts (in cent)
 - Add the two amounts
