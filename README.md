@@ -34,8 +34,8 @@ Explanation
 - len(anyaccountno) - 4 calculates how many characters should be replaced with 'X'.
 - max(0, len(anyaccountno) - 4) ensures that the result is never negative
 
-## References
-# Python Official Documentation
+# References
+## Python Official Documentation
 [1] https://docs.python.org/3/tutorial/introduction.html#strings
 
 [2] https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
