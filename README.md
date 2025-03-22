@@ -37,6 +37,9 @@ Explanation
 ## References
 # Python Official Documentation
 [1] https://docs.python.org/3/tutorial/introduction.html#strings
+
 [2] https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
+
 [3] https://docs.python.org/3/library/functions.html#len
+
 [4] https://docs.python.org/3/library/functions.html#max
