@@ -4,13 +4,6 @@
 
 # Author: Philip Cullen
 
-accountno = input("Please enter a 10 digit account number: ")
-print('X' * 6 + accountno[-4:])
-
-# this program takes an account number of any length
-# it will always display the last 4 digits
-# all other digits are seen as Xs
-
 anyaccountno = input("Please enter an account number: ")
 anylengthaccountno = max(0, len(anyaccountno) - 4) 
 print('X' * anylengthaccountno + anyaccountno[-4:])
