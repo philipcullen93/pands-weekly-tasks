@@ -21,10 +21,8 @@ Requirements: This program should:
 - Print out the answer in the format €X.XX (e.g. €12.50)
 
 How to use:
-
-To use this program, run the script (python bank.py)
-
-Enter positive integers when propted. Youll will have to do this twice.
+- To use this program, run the script (python bank.py)
+- Enter positive integers when propted. Youll will have to do this twice.
 
 How It Works:
 - The user is prompted to add an amount in cents twice
@@ -50,10 +48,8 @@ Requirements: This program should
 - *Extra* Have the program work for account numbers of any length
 
 How to Use:
-
-To use this program, run the script (python account.py). 
-
-Enter an account number when prompted.
+- To use this program, run the script (python account.py). 
+- Enter an account number when prompted.
 
 How it works:
 - Accepts any account number as input.
@@ -73,15 +69,13 @@ Requirements: This program should:
 - take a positive integer as input
 - generate a sequence of numbers based on the Collatz Conjecture.
 - The sequence is calculated using the following rules:
--- If the number is even, it is divided by 2.
--- If the number is odd, it is multiplied by 3 and increased by 1.
--- The process repeats until the value reaches 1.
+-   If the number is even, it is divided by 2.
+-   If the number is odd, it is multiplied by 3 and increased by 1.
+-   The process repeats until the value reaches 1.
 
 How to Use:
-
-To use this program, run the script (python collatz.py)
-
-Enter a positive integer when prompted.
+- To use this program, run the script (python collatz.py)
+- Enter a positive integer when prompted.
 
 How it works:
 - int(input() ensures the user enters an integer.
@@ -105,10 +99,8 @@ Required Modules:
 - import datetime
 
 How to Use:
-
-To use this program, run the script (python weekday.py). 
-
-The program will automatically determine the day and print the appropriate message.
+- To use this program, run the script (python weekday.py). 
+- The program will automatically determine the day and print the appropriate message.
 
 How it works:
 - datetime.datetime.now() gets the current date and time.
@@ -134,12 +126,9 @@ Requirements: This program should:
 - the result should round to the specified number of decimal places.
 
 How to Use:
-
-To use this program, run the script (python squareroot.py).
-
-When prompted enter a positive floating point number.
-
-When prompted enter a positive intger for the number of required decimal places.
+- To use this program, run the script (python squareroot.py).
+- When prompted enter a positive floating point number.
+- When prompted enter a positive intger for the number of required decimal places.
 
 How it works:
 - creating the function newton_sqrt(n) implements Newton's method to approximate the square root.
@@ -162,14 +151,10 @@ Required Modules:
 - import sys
 
 How to Use:
-
-To use this program, run the script (python count_e.py), follwed by the required text filename i.e. example.txt 
-
-The program will automatically read the file and count the number of lowercase 'e' in it.
-
-If the file does not exist, it will automatically create a new file with the entered filename, containing a line of default text.
-
-The program will then automatically count the number of lowercase 'e' in it. This is equal to 17 (any other number indicates a problem within the code).
+- To use this program, run the script (python count_e.py), follwed by the required text filename i.e. example.txt 
+- The program will automatically read the file and count the number of lowercase 'e' in it.
+- If the file does not exist, it will automatically create a new file with the entered filename, containing a line of default text.
+- The program will then automatically count the number of lowercase 'e' in it. This is equal to 17 (any other number indicates a problem within the code).
 
 How it works:
 - reads a text file specified by the user.
@@ -200,10 +185,8 @@ Required Modules:
 - import matplotlib.pyplot
 
 How to Use:
-
-To use this program, run the script (python plottask.py).
-
-The program will automatically generate a plot containg both the normal distribution histogram and function h(x) = x^3.
+- To use this program, run the script (python plottask.py).
+- The program will automatically generate a plot containg both the normal distribution histogram and function h(x) = x^3.
 
 How it works:
 - generates 1000 values from a normal distribution with a mean of 5 and standard deviation of 2.
