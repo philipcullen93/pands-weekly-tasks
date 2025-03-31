@@ -20,6 +20,12 @@ Requirements: This program should:
 - Add the two amounts
 - Print out the answer in the format €X.XX (e.g. €12.50)
 
+How to use:
+
+To use this program, run the script (python bank.py)
+
+Enter positive integers when propted. Youll will have to do this twice.
+
 How It Works:
 - The user is prompted to add an amount in cents twice
 - The values are added together to give an amount in cent
@@ -44,7 +50,9 @@ Requirements: This program should
 - *Extra* Have the program work for account numbers of any length
 
 How to Use:
+
 To use this program, run the script (python account.py). 
+
 Enter an account number when prompted.
 
 How it works:
@@ -70,7 +78,10 @@ Requirements: This program should:
 -- The process repeats until the value reaches 1.
 
 How to Use:
-To use this program, run the script (python collatz.py) and enter a positive integer when prompted.
+
+To use this program, run the script (python collatz.py)
+
+Enter a positive integer when prompted.
 
 How it works:
 - int(input() ensures the user enters an integer.
@@ -94,7 +105,9 @@ Required Modules:
 - import datetime
 
 How to Use:
+
 To use this program, run the script (python weekday.py). 
+
 The program will automatically determine the day and print the appropriate message.
 
 How it works:
@@ -121,8 +134,11 @@ Requirements: This program should:
 - the result should round to the specified number of decimal places.
 
 How to Use:
+
 To use this program, run the script (python squareroot.py).
+
 When prompted enter a positive floating point number.
+
 When prompted enter a positive intger for the number of required decimal places.
 
 How it works:
@@ -146,9 +162,13 @@ Required Modules:
 - import sys
 
 How to Use:
+
 To use this program, run the script (python count_e.py), follwed by the required text filename i.e. example.txt 
+
 The program will automatically read the file and count the number of lowercase 'e' in it.
+
 If the file does not exist, it will automatically create a new file with the entered filename, containing a line of default text.
+
 The program will then automatically count the number of lowercase 'e' in it. This is equal to 17 (any other number indicates a problem within the code).
 
 How it works:
@@ -180,7 +200,9 @@ Required Modules:
 - import matplotlib.pyplot
 
 How to Use:
-To use this program, run the script (python plottask.py) 
+
+To use this program, run the script (python plottask.py).
+
 The program will automatically generate a plot containg both the normal distribution histogram and function h(x) = x^3.
 
 How it works:
