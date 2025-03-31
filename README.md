@@ -26,9 +26,11 @@ How It Works:
 - The amount in cents is divided by 100 to give the euro amount
 - This amount is then printed
 
-# References bank.py
+### References bank.py
 [1] Python input() function: https://docs.python.org/3/library/functions.html#input
+
 [2] Integer conversion with int(): https://docs.python.org/3/library/functions.html#int
+
 [3] String formatting with f-strings: https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
 
 
@@ -49,9 +51,11 @@ How it works:
 - Accepts any account number as input.
 - Displays only the last four digits while masking the rest.
 
-# References account.py
+### References account.py
 [1] Python string methods: https://docs.python.org/3/library/stdtypes.html#string-methods
+
 [2] Python input() function: https://docs.python.org/3/tutorial/inputoutput.html
+
 [3] String Slicing in Python: https://realpython.com/python-strings/#indexing-and-slicing
 
 ## Week 4:
@@ -74,9 +78,10 @@ How it works:
 - The program checks if c is even or odd and applies the corresponding transformation.
 - Each new value of c is printed as part of the sequence.
 
-# References collatz.py
+### References collatz.py
 [1] Collatz Conjecture: https://study.com/academy/lesson/history-of-the-collatz-conjecture.html
-[2] Integer Division in Python: https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+
+[2] Integer Division in Python: https://www.learndatasci.com/solutions/python-double-slash-operator-floor-division/#:~:text=In%20Python%2C%20we%20can%20perform,floor()%20function.
 
 ## Week 5:
 Task: Write a program called weekday.py
@@ -98,10 +103,13 @@ How it works:
 - The program maps this integer to the correct day name using the week_days tuple.
 - If the day is Saturday or Sunday, it prints the weekend message; otherwise, it prints the weekday message.
 
-# References weekday.py
+### References weekday.py
 [1] Python datetime module: https://docs.python.org/3/library/datetime.html
+
 [2] Python Tuples: https://www.w3schools.com/python/python_tuples.asp
+
 [3] Python Conditional Statements: https://www.w3schools.com/python/python_conditions.asp
+
 [4] Python Conditional Statements 2: https://realpython.com/python-conditional-statements/
 
 ## Week 6:
@@ -122,8 +130,9 @@ How it works:
 - the program goes through iterations and improves the approximation until a convergence point is met.
 - he result is rounded using Python's round() function to the specified decimal places.
 
-# References squareroot.py
+### References squareroot.py
 [1] Newton Square Root Method: https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf
+
 [2] Python round() Function: https://www.w3schools.com/python/ref_func_round.asp
 
 ## Week 7:
@@ -148,10 +157,13 @@ How it works:
 - the function count_letter_e() counts occurrences of lowercase 'e' in the file.
 - the program runs from the command line, requiring a filename as input.
 
-# References count_e.py
+### References count_e.py
 [1] Python sys module: https://docs.python.org/3/library/sys.html#sys.argv
+
 [2] Python Exception Handling: https://www.w3schools.com/python/gloss_python_error_handling.asp
+
 [3] Python open() Function: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+
 [4] Python Conditional Statements: https://www.w3schools.com/python/python_conditions.asp
 
 ## Week 8: Plots
@@ -177,9 +189,12 @@ How it works:
 - plots the function h(x) = x³ over the range 0 to 10.
 - displays both plots on the same set of axes.
 
-# References plottask.py
+### References plottask.py
 [1] Python random() Module: https://www.w3schools.com/python/module_random.asp
+
 [2] Python matplotlib.pyplot.hist() - Histograms: https://www.w3schools.com/python/matplotlib_histograms.asp
+
 [3] Python matplotlib.pyplot.plot() - https://www.w3schools.com/python/matplotlib_plotting.asp
+
 [4] Python matplotlib.pyplot: https://matplotlib.org/stable/tutorials/pyplot.html
 
