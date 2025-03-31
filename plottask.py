@@ -21,13 +21,6 @@ values = np.random.normal(mean, stddev, 1000)
 # create histogram
 plt.hist(values, color = 'red', alpha = 1, edgecolor = 'black')
 
-# add labels and title
-plt.xlabel('Value')
-plt.ylabel('Frequency')
-plt.title("Histogram of 1000 values in a Normal Distribution")
-# display histogram
-plt.show()
-
 # Part 2: Subplot
 # plot the function  h(x)=x^3 in the range 0 to 10
 xpoints = np.array(range(1, 10))
@@ -36,9 +29,9 @@ ypoints = xpoints ** 3
 # create the plot
 plt.plot(xpoints, ypoints, label = 'h(x) = x^3')
 
-plt.xlabel("x")
-plt.ylabel("h(x)")
-plt.title("Plot of h(x) = x^3")
+plt.xlabel("h(x)")
+plt.ylabel("x^3")
+plt.title("Histogram and Function Plot")
 plt.legend()
 
 # display plot
