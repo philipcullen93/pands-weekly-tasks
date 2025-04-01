@@ -12,6 +12,17 @@ In this README.md each task contains:
 - how each program works
 - references
 
+## Installation
+1. Clone this repository using the following:
+  git clone https://github.com/philipcullen93/pands-weekly-tasks.git
+
+2. Navigate to the project directory
+   cd pands-weekly-tasks
+
+3. Run scripts in Python
+   python (script_name).py
+   e.g. python bank.py
+
 ## Week 2: Statements
 Task: Write a program call bank.py
 
